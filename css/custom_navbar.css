@@ -1,0 +1,36 @@
+a {
+  color: #FA7E0A;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none;
+}
+a:hover {
+  color: #FA7E0A;
+}
+a:focus, a:active {
+  outline: none;
+}
+
+.navbtn{
+    color:black;
+    font-weight: bold;
+    transition: 0.5s;
+    text-decoration: none;
+    outline: none;
+    font-size: 2.7rem;
+    margin-right: 1rem;
+}
+.nav{
+    position: absolute;
+    width: 100%;
+}
+.current{
+    color: black;
+    background-color: #777;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+#paddinghudai{
+    height:10rem;
+}
